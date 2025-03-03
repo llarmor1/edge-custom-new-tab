@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Custon New Tab",
-  "version": "1.0",
+  "version": "0.1.0",
   "description": "Overrides new tab page with a local html file",
   "applications": {
     "gecko": {
