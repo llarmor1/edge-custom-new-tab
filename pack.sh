@@ -16,5 +16,6 @@ elif [ -e "packaged/packaged-latest.zip" ]; then
     echo "[$(date +%H:%M:%S)] compressing new latest package"
     mv packaged/packaged-latest.zip "packaged/packaged-$(date +%d-%m_%H-%M-%S).zip";
     zip packaged/packaged-latest.zip manifest.json src/*
-    echo "[$(date +%H:%M:%S)] created latest package in packaged/packaged-latest.zip"
 fi
+
+echo "[$(date +%H:%M:%S)] created latest package in packaged/packaged-latest.zip"
