@@ -1,16 +1,16 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Custon New Tab",
   "version": "1.0",
   "description": "Overrides new tab page with a local html file",
-  "permissions": [
-    "storage",
-    "tabs"
-  ],
+  "applications": {
+    "gecko": {
+      "id": "mardevour@github",
+      "strict_min_version": "78.0"
+    }
+  },
+  "permissions": ["storage", "tabs"],
   "chrome_url_overrides": {
     "newtab": "src/newtab.html"
-  },
-  "icons": {
-    "48": "icon.png"
   }
 }
