@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Custon New Tab",
+  "name": "Custon New Tab for Edge",
   "version": "0.1.0",
-  "description": "Overrides new tab page with a local html file",
+  "description": "Use html file as new tab",
   "applications": {
     "gecko": {
       "id": "mardevour@github",
