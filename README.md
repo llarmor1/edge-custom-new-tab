@@ -1,6 +1,6 @@
-# Microsoft Edge Custom New Tab
+# Navigator Custom New Tab
 
-This is a simple Microsoft Edge addon to override the new tab page with a custom html file
+This is a simple navigator addon to override the new tab page with a custom html file
 
 Credits to [Mardevour](https://github.com/mardevour)
 
