@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 
 :root {
-    --bg: #203a28;
-    --fg: #6ede8a;
+    --bg: #B0B7BF;
+    --fg: #131B1E;
+    /*
+        https://coolors.co/b0b7bf-131b1e-3c4552-e9ebed-5e6d7e
+    */
 }
 
 html {
@@ -10,15 +13,21 @@ html {
     font-size: 18px;
     background-color: var(--bg);
     color: var(--fg);
+    background-image: url("img/GwOSeRJbYAAjUua.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
     margin: 0px;
     padding: 50px;
+    
 }
 
 .time {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.173;
     letter-spacing: -0.7px;
     text-align: center;
@@ -26,7 +35,7 @@ body {
 
 ul {
     font-family: "JetBrains Mono";
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px 40px 0px 40px;
     list-style-type: "~/";
     list-style-position: inside;
